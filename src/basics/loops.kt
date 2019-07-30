@@ -4,8 +4,8 @@ import java.util.Random
 
 fun main(args: Array<String>) {
 
-    var randomList:MutableList<Int> = mutableListOf()
-    var random:Random =  Random();
+    val randomList:MutableList<Int> = mutableListOf()
+    val random =  Random()
 
     for( i in 1..30 step 1) {
         val currentNum:Int =  (random.nextInt(100) + 1)
